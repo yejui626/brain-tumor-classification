@@ -89,7 +89,7 @@ weighted avg       0.94      0.94      0.94      1311
 - Applying techniques like transfer learning.
 
 ## Acknowledgments
-- Dataset source: [https://www.kaggle.com/code/huthayfahodeb/brain-tumor-detection-99-8-accuracy](https://www.kaggle.com/code/huthayfahodeb/brain-tumor-detection-99-8-accuracy).
+- Dataset source: [Brain Tumor Classification Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset).
 - Frameworks and tools used: TensorFlow, Keras, etc.
 
 ## License
