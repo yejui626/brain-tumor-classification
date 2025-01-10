@@ -60,8 +60,28 @@ Ensure the following Python libraries are installed:
 3. Run the notebook sequentially to reproduce the results.
 
 ## Results
-- Achieved classification accuracy: **[Mention Accuracy]**.
-- Observations: **[Mention Key Observations]**.
+- Achieved classification accuracy: **94%**.
+- Observations:
+  - High performance on most classes.
+  - Slight misclassification observed in glioma and no_tumor classes.
+
+### Confusion Matrix
+![image](https://github.com/user-attachments/assets/74ff75c0-9dc5-43c5-ac0d-cead36096823)
+
+
+### Classification Report
+```
+                  precision    recall  f1-score   support
+
+glioma_tumor       0.94      0.87      0.91       300
+    no_tumor       0.90      0.90      0.90       306
+meningioma_tumor   0.97      1.00      0.98       405
+pituitary_tumor    0.95      0.99      0.97       300
+
+    accuracy                           0.94      1311
+   macro avg       0.94      0.94      0.94      1311
+weighted avg       0.94      0.94      0.94      1311
+```
 
 ## Future Work
 - Improving model accuracy with advanced architectures.
@@ -69,7 +89,7 @@ Ensure the following Python libraries are installed:
 - Applying techniques like transfer learning.
 
 ## Acknowledgments
-- Dataset source: **[Mention Source]**.
+- Dataset source: [https://www.kaggle.com/code/huthayfahodeb/brain-tumor-detection-99-8-accuracy](https://www.kaggle.com/code/huthayfahodeb/brain-tumor-detection-99-8-accuracy).
 - Frameworks and tools used: TensorFlow, Keras, etc.
 
 ## License
